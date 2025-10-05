@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    font-family: "Montserrat";
+    background-color: #5a6d4b;
+    font-weight: normal;
+    font-style: normal;
+}
+
+header .header-item {
+    margin: 1.8%;
+    padding: 0;
+    border-bottom: 1px solid transparent;
+    color: white;
+}
+
+header .header-item a {
+    color: white;
+    text-decoration: none;
+}
+
+header .header-item:hover {
+    transition: .2s linear;
+    border-bottom: 1px solid white;
+    font-style: bold;
+    font-weight: bold;
+}
