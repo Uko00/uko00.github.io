@@ -1,0 +1,95 @@
+<!DOCTYPE htgl>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="../header.css">
+    <link rel="stylesheet" type="text/css" href="../resources/montserrat-font/config-montserrat.css">
+    <script src="./main.js"></script>
+    <title> Artigos & Pesquisa</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-item"><a href="http://localhost">PÁGINA INICIAL</a></div>
+      <div class="header-item"><a href="">PAINEL DE DADOS</a></div>
+      <div class="header-item"><a href="">SOBRE NÓS</a></div>
+      <div class="header-item"><a href="./estatisticas/">ESTATÍSTICAS</a></div>
+      <div class="header-item"><a href="/artigos-e-pesquisa/">ARTIGOS CIENTÍFICOS & PESQUISAS</a></div>
+    </header>
+
+    <div class="container">
+      <!--As células agora serão organizadas de forma hirarquica por meio de camadas l1, l2, l3... ln-->
+      <div class="page n1">
+
+        <div class="grid-cell l1">
+          <div class="grid-cell l2">
+            <h1>Artigos Científicos<br>& Pesquisas</h1>
+            <button id="btnAdcioneArtigo">Adicione o seu artigo</button>
+          </div>
+
+          <div class="grid-cell l2 form-adc-artigo">
+            <form id="formAdcArtigo">
+              <label name="autor">Autor(res):</label>
+              <input type="text" name="nome" value="" placeholder="Nome">
+              
+              <label name="instituto">Instituto de Ensino:</label>
+              <input type="text" name="nome" value="" placeholder="Instituto de Exemplo">
+
+              <label name="URL">URL: </label>
+              <input type="text" name="nome" value="" placeholder="https://www.exemplo.com">
+
+              <label name="email">E-mail:</label>
+              <input type="text" name="nome" value="" placeholder="exemplo@mail"><br>
+
+              <button type="submit">Enviar para análise</button>
+            </form>
+          </div>
+        </div>
+
+
+        <div class="grid-cell l1 artigos-container">
+
+          <div class="grid-cell l2 artigos-det">
+            <p class="titulo-artigo"><a href="https://rsdjournal.org/index.php/rsd/article/view/48876?utm_source=">Vulnerabilidade do território e circulação regional: Os impactos das secas severas no município de Tefé no Amazonas</a></p>
+            <p class="publicadora-data">Research, Society and Development — 2025</p>
+          </div>
+
+          <div class="grid-cell l2 artigos-det">
+            <p class="titulo-artigo"><a href="https://riu.ufam.edu.br/handle/prefix/8569?mode=full">A estiagem no estado do Amazonas e o agravamento da vulnerabilidade social</a></p>
+            <p class="publicadora-data">ICSEZ - Instituto de Ciências Sociais, Educação e Zootecnia (Parintins) — 2025</p>
+          </div>
+
+          <div class="grid-cell l2 artigos-det">
+            <p class="titulo-artigo"><a href="https://periodicos.ufam.edu.br/index.php/BIUS/article/view/17259">A ESTIAGEM DE 2024 NA AMAZÔNIA E SUAS CONSEQUÊNCIAS.</a></p>
+            <p class="publicadora-data">BIUS - Boletim Informativo Unimotrisaúde em Sociogerontologia — 2024</p>
+          </div>
+
+          <div class="grid-cell l2 artigos-det">
+            <p class="titulo-artigo"><a href="https://rsdjournal.org/index.php/rsd/article/view/46940">Mudanças climáticas e seus impactos nas cidades: estudo de caso das características da seca no estado do Amazonas, Brasil</a></p>
+            <p class="publicadora-data">Research, Society and Development — 2025</p>
+          </div>
+
+          <div class="bot-container">
+            <img></img>
+          </div>
+          <!-- Modelo para adicionar links de artigos na página
+          <div class="grid-cell l2">
+            <p class="titulo-artigo"><a></a></p>
+            <p class="publicadora-data"></p>
+          </div>
+          -->
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </body>
+</html>
+
+        

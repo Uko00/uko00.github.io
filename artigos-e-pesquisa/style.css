@@ -1,0 +1,116 @@
+html {
+    margin: 0; padding: 0;
+}
+
+
+body {
+    background-color: black;
+    font-family: "Anton";
+    color: white;
+    margin: 0; padding: 0;
+}
+
+.page {
+    display: grid;
+    height: 100vh;
+}
+
+.page h1 { font-size: 300%; }
+.page.n1 {
+    background-color: #faf2e3;
+    grid-template-columns: 100%;
+    color: #392614;
+}
+
+.page.n1 h1 {
+  color: #392614;
+  margin-left: 5%;
+}
+
+.page.n1 h3 {
+  font-size: 160%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 5%;
+}
+
+.grid-cell.l1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid-cell.l1.artigos-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid-cell.l1.artigos-container .titulo-artigo {
+  font-family: "Montserrat";
+
+  font-weight: bold;
+}
+
+
+.grid-cell.l1.artigos-container .publicadora-data {
+  font-family: "Montserrat";
+  font-weight: normal;
+}
+
+
+.grid-cell.l2.artigos-det {
+  border-bottom: 1px solid black;
+  margin: 0% 20% 5% 10%;
+}
+.grid-cell.l2.form-adc-artigo {
+  padding: 4%;
+  display: grid;
+}
+
+.grid-cell.l2.form-adc-artigo form {
+  display: none;
+  flex-direction: column;
+  width: 80%;
+  font-family: "Montserrat";
+}
+
+.grid-cell.l2.form-adc-artigo form * {
+  padding: .1%; 
+}
+.grid-cell.l2.form-adc-artigo form input[type="text"] {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 3%;
+}
+
+
+.grid-cell.l2.form-adc-artigo form input:after {
+  content: "*";
+  color: red;
+}
+
+button {
+    border-radius: 10px;
+    font-family: "Montserrat";
+    font-weight: none;
+    font-style: normal;
+    border: 1px solid black;
+    background-color: #faf2e3;
+    color: black;
+    margin-left: 5%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #5a6d4b;
+
+}
+
+@font-face {
+    font-family: "Anton";
+    src: local("Anton"), url("../resources/Anton-Regular.ttf");
+}
